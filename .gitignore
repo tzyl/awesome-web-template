@@ -1,0 +1,49 @@
+bin/
+build/
+dist/
+tmp/
+
+### Eclipse ###
+.checkstyle
+.classpath
+.metadata
+.loadpath
+.project
+.settings/
+
+# Gradle
+*.class
+.gradle
+*version.properties
+
+### Intellij ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### Mac OSX + Windows ###
+.DS_Store
+Thumbs.db
+
+### Node ###
+node_modules/
+npm-debug.log
+yarn-error.log
+lerna-debug.log
+
+### SublimeText + TextMate ###
+*.sublime-workspace
+*.sublime-project
+*.tmproj
+*.tmproject
+
+### Vim ###
+*.sw[op]
+
+### VSCode ###
+.vscode
+
+#Python generated files
+venv

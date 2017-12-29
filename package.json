@@ -1,0 +1,41 @@
+{
+  "name": "awesome-web-template",
+  "version": "1.0.0",
+  "description": "Simple template for a project with React, Redux and Typescript with Less stylesheets and Webpack for building and hot reloading.",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js --hot --inline --port 3000 --open",
+    "build": "webpack --config webpack.config.js --optimize-minimize --bail"
+  },
+  "repository": "https://github.com/tzyl/awesome-web-template",
+  "author": "Timothy Leung",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.0.31",
+    "@types/react-dom": "^16.0.3",
+    "@types/react-redux": "^5.0.14",
+    "@types/redux": "^3.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.4.1",
+    "cross-env": "^5.1.3",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "postcss-loader": "^2.0.9",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.19.1",
+    "tslint": "^5.8.0",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
